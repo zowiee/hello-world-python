@@ -11,4 +11,4 @@ COPY . /app
 
 ENTRYPOINT [ "python" ]
 
-CMD [ "app.py" ]
+CMD [ "flask_web/app.py" ]
