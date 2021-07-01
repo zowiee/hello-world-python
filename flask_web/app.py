@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-   return "hello my sweet sweet world!"
+   return "hello world from Minishift with Docker!"
 
 if __name__ == '__main__':
    app.run(debug=True, host='0.0.0.0')
